@@ -9,6 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *ImageView1;
+@property (weak, nonatomic) IBOutlet UIImageView *ImageView2;
+@property (weak, nonatomic) IBOutlet UIImageView *ImageView3;
 
 
 @end
